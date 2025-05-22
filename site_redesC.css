@@ -1,0 +1,327 @@
+
+body{
+    background-color: #000000;
+    margin-bottom: 2%;
+}
+
+.cal-sans-regular {
+  font-family: "Cal Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cabecalho{
+    background-image: url(./dedsec.gif);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+    align-items: center;
+    box-shadow: 0px 9px 30px #313131;
+}
+
+.cabecalho > h1{
+    color: #ff0055;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Cal Sans";
+    letter-spacing: 4px;
+    text-shadow: 2px 2px 5px #000000;
+}
+
+.malwares{
+    display: flex;
+    flex-direction: space-between;
+    margin-top: 2%;
+    padding-left: 2%;
+    margin-right: 2%;
+    background-size: cover;
+    gap: 20px;
+}
+
+#malware > h1{
+    color: #ff0055;
+    font-family: "Cal Sans";
+
+}
+
+.malwares   h1{
+    color: #C6DE41;
+    font-family: "Cal Sans";
+    letter-spacing: 2px;
+    text-shadow: 0px 9px 20px #000000;
+}
+
+.malwares  p{
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+.hackers{
+    display: flex;
+    flex-direction: space-between;
+    margin-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-size: cover;
+    gap: 20px;
+}
+#hacker  h1{
+    color: #ff0055;
+    font-family: "Cal Sans";
+    letter-spacing: 4px;
+}
+
+.hackers  h1{
+    color: #C6DE41;
+    font-family: "Cal Sans";
+    letter-spacing: 2px;
+    text-shadow: 0px 9px 20px #000000;
+}
+
+.hackers  p{
+    color: #ffffff;
+    font-family: sans-serif;
+}
+.segurancaredes{
+    text-align: center;
+    margin-bottom: 2%;
+    background-color: black;
+}
+
+.segurancaredes  h1{
+    color: white;
+    font-family: "Cal Sans";
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+
+.segurancaredes  p{
+    color: white;
+    font-family: sans-serif;
+}
+
+#malware{
+    background-color: #0f0f11;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 15px 10px #ff0055;
+}
+
+#worm{
+    background-color: #0f0f11;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 15px 5px #C6DE41;
+}
+
+#backdoors{
+    background-color: #0f0f11;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 15px 5px #C6DE41;
+}
+
+#botnet{
+    background-color: #0f0f11;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 15px 5px #C6DE41;
+}
+
+#spywares{
+    background-color: #0f0f11;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 15px 5px #C6DE41;
+}
+
+#hacker{
+    background-color: #0f0f11;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 15px 10px #ff0055;
+}
+
+#crackers{
+    background-color: #0f0f11;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 15px 5px #C6DE41;
+}
+
+#lammers{
+    background-color: #0f0f11;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 15px 5px #C6DE41;
+}
+
+
+.blacklists{
+    display: flex;
+    flex-direction: space-between;
+    margin-top: 2%;
+    padding-left: 2%;
+    margin-right: 2%;
+    background-size: cover;
+    gap: 20px;
+}
+
+#blacklist{
+    background-color: #0f0f11;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 15px 10px #ff0055;
+}
+
+#blacklist  h1{
+    color: #ff0055;
+    font-family: "Cal Sans";
+    letter-spacing: 4px;
+    text-shadow: 0px 9px 20px #000000;
+}
+
+#blacklist  p{
+    color: white;
+    font-family: sans-serif;
+}
+
+#blackalimentada{
+    background-color: #0f0f11;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 15px 5px #C6DE41;
+}
+
+#blackalimentada  h1{
+    color: #C6DE41;
+    font-family: "Cal Sans";
+    letter-spacing: 2px;
+    text-shadow: 0px 9px 20px #000000;
+}
+
+#blackalimentada p{
+    color: white;
+    font-family: sans-serif;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #C6DE41;
+    font-family: "Cal Sans";
+    letter-spacing: 3px;
+    margin-top: 2%;
+}
+
+.titulo  h1{
+    color: #555555;
+    text-shadow: -2px -2px 5px #ffffff;
+}
+
+
+::selection {
+    background-color: #ffffff;
+    color: #000000; 
+  }
+
+.golpes{
+    display: flex;
+    flex-direction: space-between;
+    margin-top: 2%;
+    padding-left: 2%;
+    margin-right: 2%;
+    background-size: cover;
+    gap: 20px;
+}
+
+.golpes2{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    padding-left: 2%;
+    margin-right: 2%;
+    background-size: cover;
+    gap: 20px;
+    width: 40%;
+}
+
+#quegolpe{
+    background-color: #0f0f11;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 15px 10px #ff0055;
+}
+
+#quegolpe  h1{
+    color: #ff0055;
+    font-family: "Cal Sans";
+    letter-spacing: 4px;
+    text-shadow: 0px 9px 20px #000000;
+}
+
+#quegolpe  p{
+    color: white;
+    font-family: sans-serif;
+}
+
+#ataqueinternet {
+    background-color: #0f0f11;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 15px 10px #C6DE41;
+}
+
+#ataqueinternet h1{
+    color: #C6DE41;
+    font-family: "Cal Sans";
+    letter-spacing: 2px;
+    text-shadow: 0px 9px 20px #000000;
+}
+
+#ataqueinternet  p{
+    color: white;
+    font-family: sans-serif;
+}
+
+#codigosmaliciosos{
+    background-color: #0f0f11;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 15px 10px #C6DE41;
+}
+
+#codigosmaliciosos  h1{
+    color: #C6DE41;
+    font-family: "Cal Sans";
+    letter-spacing: 2px;
+    text-shadow: 0px 9px 20px #000000;
+}
+
+#codigosmaliciosos p{
+    color: white;
+    font-family: sans-serif;
+}
+
+#spam{
+    background-color: #0f0f11;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 15px 10px #C6DE41;
+}
+
+#spam  h1{
+    color: #C6DE41;
+    font-family: "Cal Sans";
+    letter-spacing: 2px;
+    text-shadow: 0px 9px 20px #000000; 
+}
+
+#spam  p{
+    color: white;
+    font-family: sans-serif;
+}
+
+
